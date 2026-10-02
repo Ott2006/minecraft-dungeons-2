@@ -1,0 +1,30 @@
+{
+  "parent": "dungeons2:root",
+  "criteria": {
+    "enter": {
+      "conditions": {
+        "to": "dungeons2:the_sift"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.dungeons2.enter_sift.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "dungeons2:ichor_bucket"
+    },
+    "title": {
+      "translate": "advancements.dungeons2.enter_sift.title"
+    }
+  },
+  "requirements": [
+    [
+      "enter"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

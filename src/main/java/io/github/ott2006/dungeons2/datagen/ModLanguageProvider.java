@@ -41,6 +41,11 @@ public abstract class ModLanguageProvider extends LanguageProvider {
         this.t("item.dungeons2." + name + ".desc", en, de);
     }
 
+    private void adv(String id, String titleEn, String titleDe, String descEn, String descDe) {
+        this.t("advancements.dungeons2." + id + ".title", titleEn, titleDe);
+        this.t("advancements.dungeons2." + id + ".description", descEn, descDe);
+    }
+
     private void entity(String name, String en, String de) {
         this.t("entity.dungeons2." + name, en, de);
         if (!name.equals("sift_dart") && !name.equals("goo_glob") && !name.equals("soul_wisp") && !name.equals("monarch_feather")) {
@@ -189,6 +194,20 @@ public abstract class ModLanguageProvider extends LanguageProvider {
         this.entity("goo_glob", "Goo Glob", "Schleimklumpen");
         this.entity("soul_wisp", "Soul Wisp", "Seelenirrlicht");
         this.entity("monarch_feather", "Monarch Feather", "Monarchenfeder");
+
+        // ---------------------------------------------------------------- advancements
+        this.adv("root", "Dungeons II: The Sift", "Dungeons II: Die Sift",
+                "Craft the Singer's Horn to learn the song of the Singers", "Stelle das Horn des Sängers her und lerne das Lied der Sänger");
+        this.adv("enter_sift", "Into the Sift", "In die Sift",
+                "Open a Deep Dark portal and travel to the Sift", "Öffne ein Portal des Tiefen Dunkels und reise in die Sift");
+        this.adv("echo_golem", "Caretaker", "Hausmeister",
+                "Awaken an Echo Golem or have a Singer create one", "Erwecke einen Echogolem oder lass einen Sänger einen erschaffen");
+        this.adv("spectral_spear", "Forged in Ichor", "In Ichor geschmiedet",
+                "Forge a Spectral Spear by throwing a trident into ichor", "Schmiede einen Spektralspeer, indem du einen Dreizack in Ichor wirfst");
+        this.adv("mini_boss", "Out of Harmony", "Aus dem Takt",
+                "Defeat a Harmonizer or a Dartback", "Besiege einen Harmonisierer oder einen Pfeilrücken");
+        this.adv("monarch", "The Monarch Falls", "Der Fall des Monarchen",
+                "Defeat the Monarch", "Besiege den Monarchen");
 
         // ---------------------------------------------------------------- world
         this.t("biome.dungeons2.singers_meadow", "Singer's Meadow", "Sängerwiese");

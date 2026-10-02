@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "horn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dungeons2:singers_horn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "dungeons2:textures/block/siftstone.png",
+    "description": {
+      "translate": "advancements.dungeons2.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "dungeons2:singers_horn"
+    },
+    "title": {
+      "translate": "advancements.dungeons2.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "horn"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

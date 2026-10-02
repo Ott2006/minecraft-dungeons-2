@@ -1,0 +1,34 @@
+{
+  "parent": "dungeons2:enter_sift",
+  "criteria": {
+    "spear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dungeons2:spectral_spear"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.dungeons2.spectral_spear.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "dungeons2:spectral_spear"
+    },
+    "title": {
+      "translate": "advancements.dungeons2.spectral_spear.title"
+    }
+  },
+  "requirements": [
+    [
+      "spear"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

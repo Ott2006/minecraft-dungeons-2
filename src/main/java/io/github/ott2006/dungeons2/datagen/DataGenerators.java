@@ -63,6 +63,8 @@ public final class DataGenerators {
         generator.addProvider(event.includeServer(), new ModTagProviders.Biomes(output, lookup, files));
         generator.addProvider(event.includeServer(), new ModTagProviders.DamageTypes(output, lookup, files));
         generator.addProvider(event.includeServer(), new ModRecipeProvider(output, lookup));
+        generator.addProvider(event.includeServer(), new net.neoforged.neoforge.common.data.AdvancementProvider(output, lookup, files,
+                List.of(new ModAdvancements())));
         generator.addProvider(event.includeServer(), new LootTableProvider(output, Set.of(), List.of(
                 new LootTableProvider.SubProviderEntry(ModLootTables.BlockLoot::new, LootContextParamSets.BLOCK),
                 new LootTableProvider.SubProviderEntry(ModLootTables.EntityLoot::new, LootContextParamSets.ENTITY)), lookup));

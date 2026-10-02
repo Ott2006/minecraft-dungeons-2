@@ -1,0 +1,38 @@
+{
+  "parent": "dungeons2:enter_sift",
+  "criteria": {
+    "golem": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "dungeons2:echo_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.dungeons2.echo_golem.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "dungeons2:echo_golem_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.dungeons2.echo_golem.title"
+    }
+  },
+  "requirements": [
+    [
+      "golem"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

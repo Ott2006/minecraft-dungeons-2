@@ -1,0 +1,53 @@
+{
+  "parent": "dungeons2:enter_sift",
+  "criteria": {
+    "dartback": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "dungeons2:dartback"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "harmonizer": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "dungeons2:harmonizer"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.dungeons2.mini_boss.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "dungeons2:enraged_heart"
+    },
+    "title": {
+      "translate": "advancements.dungeons2.mini_boss.title"
+    }
+  },
+  "requirements": [
+    [
+      "harmonizer",
+      "dartback"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
