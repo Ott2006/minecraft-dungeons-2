@@ -27,9 +27,9 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:soul"
+        "type": "minecraft:sculk_soul"
       },
-      "probability": 0.006
+      "probability": 0.002
     },
     "sky_color": 6271944,
     "water_color": 4159204,

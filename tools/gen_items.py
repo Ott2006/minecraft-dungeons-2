@@ -577,7 +577,7 @@ for set_name, pal in ARMOR_PALETTES.items():
 def armor_layers(name, base, accent, trim):
     """Paints the 64x32 humanoid armor layers (layer 1: helmet, chest, arms, boots; layer 2: leggings)."""
     import random
-    rnd = random.Random(hash(name) & 0xffff)
+    rnd = random.Random(sum(map(ord, name)))
     b = hex2rgb(base)
     a = hex2rgb(accent)
     t = hex2rgb(trim)
@@ -622,9 +622,81 @@ def armor_layers(name, base, accent, trim):
     layer2.save(out_path("textures", "models", "armor", f"{name}_layer_2.png"))
 
 
+EFFECTS = {
+    "soul_burn": ([
+        "..................",
+        "........C.........",
+        ".......CC.........",
+        ".......CCC........",
+        "......CCWC....C...",
+        "...C..CCWCC..CC...",
+        "...CC.CWWWC.CCC...",
+        "...CCCCWWWCCCWC...",
+        "....CCWWWWWCWWC...",
+        "....CWWWBWWWWC....",
+        "....CWWBBBWWWC....",
+        "....CCWBBBBWCC....",
+        ".....CWBBBBWC.....",
+        ".....CCWBBWCC.....",
+        "......CCWWCC......",
+        ".......CCCC.......",
+        "..................",
+        ".................."], {"C": "#2a8fc4", "W": "#5fd3ff", "B": "#d8f8ff"}),
+    "echo_ward": ([
+        "..................",
+        "....TTTTTTTTTT....",
+        "...TDDDDDDDDDDT...",
+        "...TDCCCCCCCCDT...",
+        "...TDC......CDT...",
+        "...TDC.TTTT.CDT...",
+        "...TDC.TCCT.CDT...",
+        "...TDC.TCCT.CDT...",
+        "...TDC.TTTT.CDT...",
+        "...TDC......CDT...",
+        "....TDC....CDT....",
+        "....TDCC..CCDT....",
+        ".....TDCCCCDT.....",
+        "......TDDDDT......",
+        ".......TTTT.......",
+        "..................",
+        "..................",
+        ".................."], {"T": "#0d2a30", "D": "#1f6f78", "C": "#49e6f2"}),
+    "enraged": ([
+        "..................",
+        "..R...........R...",
+        "..RR.........RR...",
+        "..RRR.......RRR...",
+        "...RRR.....RRR....",
+        "....RRRRRRRRR.....",
+        "...RRYRRRRRYRR....",
+        "...RRYYRRRYYRR....",
+        "...RRRRRRRRRRR....",
+        "...RRRRRRRRRRR....",
+        "....RRWRWRWRR.....",
+        "....RRRRRRRRR.....",
+        ".....RRRRRRR......",
+        "......RRRRR.......",
+        "..................",
+        "..................",
+        "..................",
+        ".................."], {"R": "#c81e2a", "Y": "#ffd23a", "W": "#f0ecd8"}),
+}
+
+
+def effect_icon(rows, palette):
+    img = new(18, 18)
+    for y, row in enumerate(rows):
+        for x, ch in enumerate(row):
+            if ch not in ". ":
+                img.putpixel((x, y), hex2rgb(palette[ch]) + (255,))
+    return img
+
+
 def main():
     for name, (rows, pal, kw) in ICONS.items():
         save(icon(rows, pal, **kw), I, name + ".png")
+    for name, (rows, pal) in EFFECTS.items():
+        save(effect_icon(rows, pal), "textures/mob_effect", name + ".png")
     armor_layers("sifter", "#d27a42", "#6aa84a", "#8e3b22")
     armor_layers("mad_sifter", "#b02a2a", "#ffb03a", "#4a1018")
 

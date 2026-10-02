@@ -146,12 +146,12 @@ public final class SiftDimensionData {
                 // ichor ravines: everything that would be ocean in the overworld
                 Pair.of(Climate.parameters(full, full, lowlands, full, depth, full, 0.0F), ravines),
                 // the carapace: hot areas
-                Pair.of(Climate.parameters(Climate.Parameter.span(0.2F, 1.0F), full, inland, flat, depth, full, 0.0F), carapace),
-                Pair.of(Climate.parameters(Climate.Parameter.span(0.45F, 1.0F), full, inland, hilly, depth, full, 0.0F), carapace),
+                Pair.of(Climate.parameters(Climate.Parameter.span(0.0F, 1.0F), full, inland, flat, depth, full, 0.0F), carapace),
+                Pair.of(Climate.parameters(Climate.Parameter.span(0.3F, 1.0F), full, inland, hilly, depth, full, 0.0F), carapace),
                 // lullaby hills: the hilly areas
-                Pair.of(Climate.parameters(Climate.Parameter.span(-1.0F, 0.45F), full, inland, hilly, depth, full, 0.0F), hills),
+                Pair.of(Climate.parameters(Climate.Parameter.span(-1.0F, 0.3F), full, inland, hilly, depth, full, 0.0F), hills),
                 // singer's meadow: everything else
-                Pair.of(Climate.parameters(Climate.Parameter.span(-1.0F, 0.2F), full, inland, flat, depth, full, 0.0F), meadow));
+                Pair.of(Climate.parameters(Climate.Parameter.span(-1.0F, 0.0F), full, inland, flat, depth, full, 0.0F), meadow));
 
         context.register(ModDimensions.SIFT_STEM, new LevelStem(types.getOrThrow(ModDimensions.SIFT_TYPE),
                 new NoiseBasedChunkGenerator(MultiNoiseBiomeSource.createFromList(new Climate.ParameterList<>(points)),
