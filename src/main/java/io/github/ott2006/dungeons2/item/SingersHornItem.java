@@ -52,7 +52,7 @@ public class SingersHornItem extends Item {
             if (lit) {
                 break;
             }
-            if (dir != context.getClickedFace() && level.getBlockState(clicked.relative(dir)).isAir()) {
+            if (dir != context.getClickedFace()) {
                 start = clicked.relative(dir);
                 lit = SiftPortalShape.tryLight(level, start);
             }

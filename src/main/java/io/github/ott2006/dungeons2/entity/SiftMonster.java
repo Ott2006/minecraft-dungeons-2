@@ -9,6 +9,7 @@ import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntitySelector;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Mob;
@@ -160,8 +161,11 @@ public abstract class SiftMonster extends Monster {
                 && (spawnType != MobSpawnType.NATURAL || level.getBlockState(pos.below()).is(ModTags.Blocks.SIFT_SPAWNABLE_ON));
     }
 
-    /** Pushes {@code target} away from this entity. */
+    /** Pushes {@code target} away from this entity. Creative and spectating players are left alone. */
     protected void knockAway(LivingEntity target, double strength, double up) {
+        if (!EntitySelector.NO_CREATIVE_OR_SPECTATOR.test(target)) {
+            return;
+        }
         Vec3 dir = target.position().subtract(this.position()).multiply(1, 0, 1);
         if (dir.lengthSqr() < 1.0E-4) {
             dir = new Vec3(1, 0, 0);
@@ -171,8 +175,11 @@ public abstract class SiftMonster extends Monster {
         target.hurtMarked = true;
     }
 
-    /** Pulls {@code target} towards this entity. */
+    /** Pulls {@code target} towards this entity. Creative and spectating players are left alone. */
     protected void pullTowards(LivingEntity target, double strength) {
+        if (!EntitySelector.NO_CREATIVE_OR_SPECTATOR.test(target)) {
+            return;
+        }
         Vec3 dir = this.position().subtract(target.position());
         double len = dir.length();
         if (len < 1.0E-3) {

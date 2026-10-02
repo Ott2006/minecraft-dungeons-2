@@ -11,6 +11,7 @@ import java.util.Set;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 
 /**
@@ -29,8 +30,13 @@ public final class SiftPortalShape {
         return state.is(ModTags.Blocks.SIFT_PORTAL_FRAMES);
     }
 
+    /**
+     * Blocks the portal may replace: air, the portal itself and thin decoration like grass, snow layers or the sculk
+     * veins that grow inside ancient city frames. Fluids are never replaced.
+     */
     private static boolean isFillable(BlockState state) {
-        return state.isAir() || state.is(ModBlocks.SIFT_PORTAL.get());
+        return state.isAir() || state.is(ModBlocks.SIFT_PORTAL.get()) || state.is(Blocks.SCULK_VEIN)
+                || state.canBeReplaced() && state.getFluidState().isEmpty();
     }
 
     /**
