@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dungeons2:block/stripped_white_willow_log_top",
+    "side": "dungeons2:block/stripped_white_willow_log"
+  }
+}

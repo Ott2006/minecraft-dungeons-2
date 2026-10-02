@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "dungeons2:block/siftstone_bricks",
+    "side": "dungeons2:block/siftstone_bricks",
+    "top": "dungeons2:block/siftstone_bricks"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cobbled_siftstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dungeons2:cobbled_siftstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dungeons2:cobbled_siftstone_stairs_from_cobbled_siftstone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cobbled_siftstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dungeons2:cobbled_siftstone_stairs_from_cobbled_siftstone_stonecutting"
+    ]
+  }
+}

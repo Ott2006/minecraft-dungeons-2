@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "dungeons2:sifter_boots"
+    },
+    {
+      "item": "dungeons2:enraged_heart"
+    },
+    {
+      "item": "dungeons2:ichor_bucket"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "dungeons2:mad_sifter_boots"
+  }
+}

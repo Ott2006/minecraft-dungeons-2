@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dungeons2:block/sift_portal_ns"
+    },
+    "axis=z": {
+      "model": "dungeons2:block/sift_portal_ew"
+    }
+  }
+}

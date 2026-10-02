@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "H": {
+      "item": "minecraft:goat_horn"
+    }
+  },
+  "pattern": [
+    " E ",
+    "EHE",
+    " E "
+  ],
+  "result": {
+    "count": 1,
+    "id": "dungeons2:singers_horn"
+  }
+}

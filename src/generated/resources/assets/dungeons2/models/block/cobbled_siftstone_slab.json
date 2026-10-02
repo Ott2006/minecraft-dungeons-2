@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "dungeons2:block/cobbled_siftstone",
+    "side": "dungeons2:block/cobbled_siftstone",
+    "top": "dungeons2:block/cobbled_siftstone"
+  }
+}

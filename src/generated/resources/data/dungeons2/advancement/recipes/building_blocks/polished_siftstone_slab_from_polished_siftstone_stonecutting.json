@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_polished_siftstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dungeons2:polished_siftstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dungeons2:polished_siftstone_slab_from_polished_siftstone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_polished_siftstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dungeons2:polished_siftstone_slab_from_polished_siftstone_stonecutting"
+    ]
+  }
+}

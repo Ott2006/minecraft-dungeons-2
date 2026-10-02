@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "dungeons2:block/carapace_sandstone_bottom",
+    "side": "dungeons2:block/carapace_sandstone",
+    "top": "dungeons2:block/carapace_sandstone_top"
+  }
+}

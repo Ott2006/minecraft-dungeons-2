@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cross": "dungeons2:block/green_tall_sculk_grass_bottom"
+  }
+}

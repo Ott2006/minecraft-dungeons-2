@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/nether_portal_ew",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "particle": "dungeons2:block/sift_portal",
+    "portal": "dungeons2:block/sift_portal"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dungeons2:block/cobbled_siftstone_slab"
+    },
+    "type=double": {
+      "model": "dungeons2:block/cobbled_siftstone"
+    },
+    "type=top": {
+      "model": "dungeons2:block/cobbled_siftstone_slab_top"
+    }
+  }
+}

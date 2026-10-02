@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "dungeons2:sifter_chitin"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " C",
+    "PC",
+    "S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "dungeons2:riftslasher"
+  }
+}

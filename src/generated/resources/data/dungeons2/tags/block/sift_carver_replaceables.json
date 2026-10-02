@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#minecraft:overworld_carver_replaceables",
+    "dungeons2:green_healthy_sculk",
+    "dungeons2:orange_healthy_sculk",
+    "dungeons2:orange_sculk_grass_block",
+    "dungeons2:light_orange_sculk_grass_block",
+    "dungeons2:green_sculk_grass_block",
+    "dungeons2:siftstone",
+    "dungeons2:cobbled_siftstone",
+    "dungeons2:carapace_sand",
+    "dungeons2:carapace_sandstone"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dungeons2:soul_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "dungeons2:soul_fragment"
+  }
+}

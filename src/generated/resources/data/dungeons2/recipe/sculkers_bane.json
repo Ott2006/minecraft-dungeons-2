@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond_sword"
+    },
+    "K": {
+      "item": "dungeons2:sculker_claw"
+    }
+  },
+  "pattern": [
+    " K ",
+    "KDK",
+    " K "
+  ],
+  "result": {
+    "count": 1,
+    "id": "dungeons2:sculkers_bane"
+  }
+}

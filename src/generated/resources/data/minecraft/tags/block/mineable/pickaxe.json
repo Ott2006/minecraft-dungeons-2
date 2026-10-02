@@ -1,0 +1,26 @@
+{
+  "values": [
+    "dungeons2:siftstone",
+    "dungeons2:cobbled_siftstone",
+    "dungeons2:cobbled_siftstone_stairs",
+    "dungeons2:cobbled_siftstone_slab",
+    "dungeons2:cobbled_siftstone_wall",
+    "dungeons2:polished_siftstone",
+    "dungeons2:polished_siftstone_stairs",
+    "dungeons2:polished_siftstone_slab",
+    "dungeons2:polished_siftstone_wall",
+    "dungeons2:siftstone_bricks",
+    "dungeons2:siftstone_brick_stairs",
+    "dungeons2:siftstone_brick_slab",
+    "dungeons2:siftstone_brick_wall",
+    "dungeons2:chiseled_siftstone",
+    "dungeons2:carapace_sandstone",
+    "dungeons2:resonant_deepslate",
+    "dungeons2:soul_block",
+    "dungeons2:siftstone_coal_ore",
+    "dungeons2:siftstone_iron_ore",
+    "dungeons2:siftstone_copper_ore",
+    "dungeons2:siftstone_gold_ore",
+    "dungeons2:siftstone_diamond_ore"
+  ]
+}

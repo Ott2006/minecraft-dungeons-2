@@ -1,0 +1,130 @@
+{
+  "carvers": {
+    "air": [
+      "dungeons2:sift_cave",
+      "dungeons2:sift_canyon",
+      "dungeons2:ichor_ravine"
+    ]
+  },
+  "creature_spawn_probability": 0.08,
+  "downfall": 0.0,
+  "effects": {
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "fog_color": 13209506,
+    "foliage_color": 12081738,
+    "grass_color": 12081738,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.nether.soul_sand_valley"
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:soul"
+      },
+      "probability": 0.006
+    },
+    "sky_color": 6271944,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [
+      "dungeons2:ichor_pool_common"
+    ],
+    [
+      "dungeons2:siftstone_rock"
+    ],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "dungeons2:siftstone_coal_ore",
+      "dungeons2:siftstone_iron_ore",
+      "dungeons2:siftstone_copper_ore",
+      "dungeons2:siftstone_gold_ore",
+      "dungeons2:siftstone_diamond_ore"
+    ],
+    [],
+    [],
+    [
+      "dungeons2:orange_sculk_grass_sparse"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "dungeons2:blub",
+        "maxCount": 4,
+        "minCount": 2,
+        "weight": 12
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "dungeons2:seedling",
+        "maxCount": 4,
+        "minCount": 2,
+        "weight": 60
+      },
+      {
+        "type": "dungeons2:pollinator",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 40
+      },
+      {
+        "type": "dungeons2:nester",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 30
+      },
+      {
+        "type": "dungeons2:stalker",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 20
+      },
+      {
+        "type": "dungeons2:dartback",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 2
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.8
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "dungeons2:block/white_willow_planks",
+    "side": "dungeons2:block/white_willow_planks",
+    "top": "dungeons2:block/white_willow_planks"
+  }
+}

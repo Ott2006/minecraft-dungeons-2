@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "dungeons2:soul_fragment"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "dungeons2:soul_block"
+    }
+  },
+  "pattern": [
+    "FGF",
+    "FSF",
+    "OOO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dungeons2:corrupted_beacon"
+  }
+}

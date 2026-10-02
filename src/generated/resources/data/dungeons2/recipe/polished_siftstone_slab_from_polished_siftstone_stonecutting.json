@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "dungeons2:polished_siftstone"
+  },
+  "result": {
+    "count": 2,
+    "id": "dungeons2:polished_siftstone_slab"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "dungeons2:block/polished_siftstone",
+    "side": "dungeons2:block/polished_siftstone",
+    "top": "dungeons2:block/polished_siftstone"
+  }
+}

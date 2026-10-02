@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "dungeons2:block/white_willow_door_bottom",
+    "top": "dungeons2:block/white_willow_door_top"
+  }
+}

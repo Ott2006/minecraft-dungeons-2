@@ -1,0 +1,129 @@
+{
+  "carvers": {
+    "air": [
+      "dungeons2:sift_cave",
+      "dungeons2:sift_canyon"
+    ]
+  },
+  "creature_spawn_probability": 0.05,
+  "downfall": 0.0,
+  "effects": {
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "fog_color": 15128242,
+    "foliage_color": 12560762,
+    "grass_color": 12560762,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.desert"
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.01
+    },
+    "sky_color": 9225920,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [],
+    [
+      "dungeons2:siftstone_rock"
+    ],
+    [],
+    [
+      "dungeons2:bone_arch"
+    ],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "dungeons2:siftstone_coal_ore",
+      "dungeons2:siftstone_iron_ore",
+      "dungeons2:siftstone_copper_ore",
+      "dungeons2:siftstone_gold_ore",
+      "dungeons2:siftstone_diamond_ore"
+    ],
+    [],
+    [],
+    [
+      "dungeons2:carapace_dead_bush"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "dungeons2:blub",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 6
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "dungeons2:hunter",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 50
+      },
+      {
+        "type": "dungeons2:scavenger",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 40
+      },
+      {
+        "type": "dungeons2:stalker",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 40
+      },
+      {
+        "type": "dungeons2:trapper",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 30
+      },
+      {
+        "type": "dungeons2:seedling",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 15
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.8
+}

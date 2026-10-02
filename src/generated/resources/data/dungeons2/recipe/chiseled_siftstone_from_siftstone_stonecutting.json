@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "dungeons2:siftstone"
+  },
+  "result": {
+    "count": 1,
+    "id": "dungeons2:chiseled_siftstone"
+  }
+}

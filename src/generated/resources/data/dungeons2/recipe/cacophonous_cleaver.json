@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "dungeons2:soul_fragment"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "IN",
+    "IF",
+    " S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dungeons2:cacophonous_cleaver"
+  }
+}

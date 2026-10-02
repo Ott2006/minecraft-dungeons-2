@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "dungeons2:soul_fragment"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "FFI",
+    "  S",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "dungeons2:soul_reaper"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sifter_chitin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dungeons2:sifter_chitin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dungeons2:humbling_horn"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sifter_chitin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dungeons2:humbling_horn"
+    ]
+  }
+}

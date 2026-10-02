@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_carapace_sand": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dungeons2:carapace_sand"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dungeons2:carapace_sandstone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_carapace_sand"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dungeons2:carapace_sandstone"
+    ]
+  }
+}

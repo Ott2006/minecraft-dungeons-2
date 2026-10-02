@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_siftstone_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dungeons2:siftstone_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dungeons2:siftstone_brick_wall_from_siftstone_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_siftstone_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dungeons2:siftstone_brick_wall_from_siftstone_bricks_stonecutting"
+    ]
+  }
+}

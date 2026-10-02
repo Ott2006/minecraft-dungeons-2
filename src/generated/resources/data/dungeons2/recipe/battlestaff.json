@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "dungeons2:sifter_chitin"
+    },
+    "L": {
+      "item": "dungeons2:white_willow_log"
+    }
+  },
+  "pattern": [
+    "  C",
+    " L ",
+    "C  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "dungeons2:battlestaff"
+  }
+}

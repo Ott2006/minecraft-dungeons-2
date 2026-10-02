@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "F": {
+      "item": "dungeons2:soul_fragment"
+    }
+  },
+  "pattern": [
+    " F ",
+    "FCF",
+    " F "
+  ],
+  "result": {
+    "count": 1,
+    "id": "dungeons2:soul_harvester"
+  }
+}

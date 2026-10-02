@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_enraged_heart": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dungeons2:enraged_heart"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dungeons2:mad_sifter_chestplate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_enraged_heart"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dungeons2:mad_sifter_chestplate"
+    ]
+  }
+}

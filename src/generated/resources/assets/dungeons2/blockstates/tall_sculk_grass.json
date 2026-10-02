@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "dungeons2:block/tall_sculk_grass_bottom"
+    },
+    "half=upper": {
+      "model": "dungeons2:block/tall_sculk_grass_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dungeons2:block/white_willow_slab"
+    },
+    "type=double": {
+      "model": "dungeons2:block/white_willow_planks"
+    },
+    "type=top": {
+      "model": "dungeons2:block/white_willow_slab_top"
+    }
+  }
+}
