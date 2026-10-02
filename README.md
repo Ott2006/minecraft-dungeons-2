@@ -7,7 +7,7 @@ Kreaturen, Waffen, Artefakte und Rüstungen nach Minecraft Java Edition.
 > bisher bekannten Infos zu Minecraft Dungeons II (Release 29.09.2026). Wo Details unbekannt sind (z. B. genaue
 > Werte oder Rezepte), sind sie frei ergänzt.
 
-![Sifter, Blubs, Sänger und Echogolem](docs/screenshots/mobs_sifters.png)
+![Sifter, Blubs, Sänger und Echogolem](docs/screenshots/mobs_sifters.jpg)
 
 ## Voraussetzungen
 
@@ -30,12 +30,14 @@ Die Sift erreicht man – wie in Dungeons II – durch das **Portal des Tiefen D
    * **resonantem Tiefenschiefer** (8 Tiefenschieferziegel um 1 Echoscherbe = 8 Stück).
 
    Der Rahmen darf beliebig geformt sein (bis 900 Innenblöcke); ein Netherportal-förmiger 4×5-Rahmen reicht.
+   Sculkadern, Gras o. Ä. im Inneren werden einfach überschrieben.
 3. Mit dem Horn auf den Rahmen rechtsklicken – das Lied der Sänger öffnet das Portal.
 
 Auf der anderen Seite wird automatisch ein Rückportal an der Oberfläche gebaut. In der Luft gespielt,
 besänftigt das Horn außerdem Wärter in der Nähe.
 
-![Portal des Tiefen Dunkels](docs/screenshots/portal.png)
+![Aktiviertes Portal in einer Antiken Stadt](docs/screenshots/portal.jpg)
+![Rückportal im Panzer](docs/screenshots/exit_portal.jpg)
 
 ## Die Dimension
 
@@ -50,8 +52,8 @@ türkisen Himmel, durch den Seelen treiben.
 | **Ichorschluchten** (Ichor Ravines) | Ichor-Meere und tiefe Schluchten. Hier lauert der Pfeilrücken. |
 
 <p>
-<img src="docs/screenshots/singers_meadow.png" width="49%"> <img src="docs/screenshots/lullaby_hills.png" width="49%">
-<img src="docs/screenshots/the_carapace.png" width="49%"> <img src="docs/screenshots/ichor_ravines.png" width="49%">
+<img src="docs/screenshots/singers_meadow.jpg" width="49%"> <img src="docs/screenshots/lullaby_hills.jpg" width="49%">
+<img src="docs/screenshots/the_carapace.jpg" width="49%"> <img src="docs/screenshots/ichor_ravines.jpg" width="49%">
 </p>
 
 **Gezeiten der Sift:** Alle 5 Minuten wechselt die Gezeit zwischen *Fluss* (Tempo + Eile), *Gedeihen*
@@ -96,8 +98,8 @@ hängende Weißweide), Seelenblock, resonanter Tiefenschiefer.
 | **Fallensteller** | Rosa Sculker, sperrt Helden in magische Barrieren. |
 | **Monarch** (Boss) | Gewaltiger Sculker mit Schmetterlingsflügeln: Diener beschwören, wirbelnder Sturmangriff, Drehangriff mit 8 Federn, die nach 5 s feuern. Bei 75 % HP erscheint ein **Monarch-Echo** als geisterhafter Klon. Wird mit dem **Monarchenköder** in der Sift beschworen. |
 
-![Sculker und Bosse](docs/screenshots/mobs_sculkers_bosses.png)
-![Monarch mit Echo im Kampf](docs/screenshots/monarch_fight.png)
+![Sculker und Bosse](docs/screenshots/mobs_sculkers_bosses.jpg)
+![Monarch mit Echo im Kampf](docs/screenshots/monarch_fight.jpg)
 
 ## Ausrüstung
 
@@ -124,6 +126,8 @@ Heilung), Verderbtes Leuchtfeuer (Seelenstrahl, der alles durchbohrt).
 
 Alle Rezepte sind im Rezeptbuch bzw. über JEI/EMI sichtbar. Die Mod ist komplett auf **Englisch und Deutsch**
 übersetzt.
+
+<img src="docs/screenshots/creative_tab.png" width="346" alt="Kreativ-Tab der Mod">
 
 ## Selbst bauen
 
